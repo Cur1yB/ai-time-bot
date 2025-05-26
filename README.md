@@ -27,6 +27,11 @@ When the user asks for the current time, the agent calls `get_current_time()` an
    pip install -r requirements.txt
    langgraph dev
    ```
+**Or just run the command**
+
+   ```bash
+   make dev
+   ```
 
 Now chat with it! Try asking:
 **"What time is it?"**
