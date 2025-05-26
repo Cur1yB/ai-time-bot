@@ -8,7 +8,7 @@ When the user asks for the current time, the agent calls `get_current_time()` an
 1. **Install Ollama**:
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
-```
+   ```
 
 2. **Pull the model**:
 
