@@ -42,8 +42,8 @@ def normalize_message(msg: str) -> set[str]:
 
 
 def manual_check(tool_input):
-    msg = tool_input["messages"][-1].content.lower()
-    words = set(msg.split())
+    msg = tool_input["messages"][-1].content
+    words = normalize_message(msg)
     matches_include = words & KEYWORDS["include"]
     matches_exclude = words & KEYWORDS["exclude"]
 
