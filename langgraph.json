@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "langchain_ollama"
+  ],
+  "graphs": {
+    "default": "./main.py:app"
+  }
+}
