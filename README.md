@@ -37,3 +37,4 @@ Now chat with it! Try asking:
 **"What time is it?"**
 
 The agent should respond with the current UTC time using the tool.
+![изображение](https://github.com/user-attachments/assets/f764c751-d3c9-473b-99ba-537164843f9a)
